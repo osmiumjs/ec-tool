@@ -1,0 +1,22 @@
+{
+	"name"        : "@osmium/ec-tool",
+	"description" : "Osmium-ec key generator",
+	"license"     : "MIT",
+	"author"      : {
+		"name" : "Vasiliy Isaichkin",
+		"email": "vasiliy@isaichkin.ru"
+	},
+	"repository"  : "https://github.com/osmiumjs/ec-tool",
+	"bugs"        : {
+		"url": "https://github.com/osmiumjs/ec-tool/issues"
+	},
+	"version"     : "0.1.0",
+	"main"        : "index.js",
+	"bin"         : {
+		"ec-tool": "./index.js"
+	},
+	"dependencies": {
+		"optimist": "^0.6.1",
+		"elliptic": "^6.5.0"
+	}
+}
